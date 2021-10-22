@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontlineEBillingAssistant.API", "FrontlineEBillingAssistant.API\FrontlineEBillingAssistant.API.csproj", "{21FA6057-97B4-48BD-B704-81DC4F233BFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontlineEBillingAssistant.Core", "FrontlineEBillingAssistant.Core\FrontlineEBillingAssistant.Core.csproj", "{80E57E47-3296-476A-BB48-6AC171D489F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontlineEBillingAssistant.Service", "FrontlineEBillingAssistant.Service\FrontlineEBillingAssistant.Service.csproj", "{4B5F74DC-2B09-45E7-8E60-EC6A05349481}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontlineEBillingAssistant.Repository", "FrontlineEBillingAssistant.Repository\FrontlineEBillingAssistant.Repository.csproj", "{35124504-11F8-4313-9E4D-64940A83E34F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontlineEBillingAssistant.Authentication", "FrontlineEBillingAssistant.Authentication\FrontlineEBillingAssistant.Authentication.csproj", "{E096A8F2-34D2-4EFD-AA04-19371560518B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21FA6057-97B4-48BD-B704-81DC4F233BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FA6057-97B4-48BD-B704-81DC4F233BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FA6057-97B4-48BD-B704-81DC4F233BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FA6057-97B4-48BD-B704-81DC4F233BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E57E47-3296-476A-BB48-6AC171D489F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E57E47-3296-476A-BB48-6AC171D489F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E57E47-3296-476A-BB48-6AC171D489F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E57E47-3296-476A-BB48-6AC171D489F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5F74DC-2B09-45E7-8E60-EC6A05349481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5F74DC-2B09-45E7-8E60-EC6A05349481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5F74DC-2B09-45E7-8E60-EC6A05349481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5F74DC-2B09-45E7-8E60-EC6A05349481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35124504-11F8-4313-9E4D-64940A83E34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35124504-11F8-4313-9E4D-64940A83E34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35124504-11F8-4313-9E4D-64940A83E34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35124504-11F8-4313-9E4D-64940A83E34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E096A8F2-34D2-4EFD-AA04-19371560518B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E096A8F2-34D2-4EFD-AA04-19371560518B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E096A8F2-34D2-4EFD-AA04-19371560518B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E096A8F2-34D2-4EFD-AA04-19371560518B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1A7ADB5-1761-4344-A791-A3FF87B610A5}
+	EndGlobalSection
+EndGlobal
