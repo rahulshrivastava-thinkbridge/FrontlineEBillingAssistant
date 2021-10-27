@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "21fa6057-97b4-48bd-b704-81dc4f233bfc": {
+      "ProjectGuid": "21fa6057-97b4-48bd-b704-81dc4f233bfc",
+      "DisplayName": "FrontlineEBillingAssistant.API",
+      "ColorIndex": 0
+    },
+    "35124504-11f8-4313-9e4d-64940a83e34f": {
+      "ProjectGuid": "35124504-11f8-4313-9e4d-64940a83e34f",
+      "DisplayName": "FrontlineEBillingAssistant.Repository",
+      "ColorIndex": 1
+    },
+    "80e57e47-3296-476a-bb48-6ac171d489f4": {
+      "ProjectGuid": "80e57e47-3296-476a-bb48-6ac171d489f4",
+      "DisplayName": "FrontlineEBillingAssistant.Core",
+      "ColorIndex": 2
+    },
+    "4b5f74dc-2b09-45e7-8e60-ec6a05349481": {
+      "ProjectGuid": "4b5f74dc-2b09-45e7-8e60-ec6a05349481",
+      "DisplayName": "FrontlineEBillingAssistant.Service",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

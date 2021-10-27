@@ -1,0 +1,15 @@
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\bin\Debug\net5.0\FrontlineEBillingAssistant.Core.deps.json
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\bin\Debug\net5.0\FrontlineEBillingAssistant.Core.runtimeconfig.json
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\bin\Debug\net5.0\FrontlineEBillingAssistant.Core.runtimeconfig.dev.json
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\bin\Debug\net5.0\FrontlineEBillingAssistant.Core.dll
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\bin\Debug\net5.0\ref\FrontlineEBillingAssistant.Core.dll
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\bin\Debug\net5.0\FrontlineEBillingAssistant.Core.pdb
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.csproj.AssemblyReference.cache
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.AssemblyInfoInputs.cache
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.AssemblyInfo.cs
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.csproj.CoreCompileInputs.cache
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.dll
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\ref\FrontlineEBillingAssistant.Core.dll
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.pdb
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.genruntimeconfig.cache

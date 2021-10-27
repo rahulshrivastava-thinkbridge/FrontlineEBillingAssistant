@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace FrontlineEBillingAssistant.API.Controllers
 {
     [Authorize]
-    [Route("api/[controller]")]
+    [Route("api/invoicelineitems")]
     [ApiController]
     public class InvoiceLineItemController : ControllerBase
     {
@@ -56,11 +56,11 @@ namespace FrontlineEBillingAssistant.API.Controllers
         /// <param name="Id">Invoice Client ID</param>
         /// <returns></returns>
         [EnableCors("CORSPolicy")]
-        [HttpGet("GetInvoiceLineItemsById")]
+        [HttpGet("listing")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<Object> GetInvoiceLineItemsById([FromQuery] int Id)
         {
-            var data = await _invoiceLineItemService.GetAllInvoiceLineItemsById(Id);
+            var data = await _invoiceLineItemService.GetInvoiceLineItemsById(Id);
             var json = JsonConvert.SerializeObject(data, Formatting.Indented,
                 new JsonSerializerSettings()
                 {

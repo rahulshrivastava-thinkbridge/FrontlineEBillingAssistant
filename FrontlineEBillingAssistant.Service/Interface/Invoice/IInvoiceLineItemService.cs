@@ -7,5 +7,6 @@ namespace FrontlineEBillingAssistant.Service.Interface.Invoice
     {
         Task<IEnumerable<Core.Models.InvoiceLineItem>> GetAllInvoiceLineItemsById(int Id);
         Task<IEnumerable<Core.Models.InvoiceLineItem>> GetAllInvoiceLineItems();
+        Task<IEnumerable<Core.Models.InvoiceLineItemsListingGridModel>> GetInvoiceLineItemsById(int Id);
     }
 }

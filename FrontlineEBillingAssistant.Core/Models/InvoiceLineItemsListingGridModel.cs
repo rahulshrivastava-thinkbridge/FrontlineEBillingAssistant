@@ -235,5 +235,10 @@ namespace FrontlineEBillingAssistant.Core.Models
             get;
             set;
         }
+        public string LineItemType
+        {
+            get;
+            set;
+        }
     }
 }
