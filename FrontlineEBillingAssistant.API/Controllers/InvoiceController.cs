@@ -59,11 +59,11 @@ namespace FrontlineEBillingAssistant.API.Controllers
         /// <param name="Id">Invoice ID</param>
         /// <returns></returns>
         [EnableCors("CORSPolicy")]
-        [HttpGet("GetInvoiceById")]
+        [HttpGet("details")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<Object> GetInvoiceById([FromQuery] int Id)
+        public async Task<Object> GetInvoiceDetailsById([FromQuery] int Id)
         {
-            var data = await _invoiceService.GetInvoiceById(Id);
+            var data = await _invoiceService.GetInvoiceDetailsById(Id);
             var json = JsonConvert.SerializeObject(data, Formatting.Indented,
                 new JsonSerializerSettings()
                 {

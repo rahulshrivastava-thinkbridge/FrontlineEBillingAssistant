@@ -8,7 +8,7 @@ namespace FrontlineEBillingAssistant.Core.Models
 {
     public class InvoiceLineItemsListingGridModel
     {
-        public string Type { get; set; }
+        //public string Type { get; set; }
         public int LineItemId
         {
             get;
@@ -89,11 +89,11 @@ namespace FrontlineEBillingAssistant.Core.Models
             get;
             set;
         }
-        public string Changes
-        {
-            get;
-            set;
-        }
+        //public string Changes
+        //{
+        //    get;
+        //    set;
+        //}
         public decimal OriginalDiff
         {
             get;
@@ -110,11 +110,11 @@ namespace FrontlineEBillingAssistant.Core.Models
             get;
             set;
         }
-        public string Status
-        {
-            get;
-            set;
-        }
+        //public string Status
+        //{
+        //    get;
+        //    set;
+        //}
         public bool HasCommunication
         {
             get;
@@ -135,11 +135,11 @@ namespace FrontlineEBillingAssistant.Core.Models
             get;
             set;
         }
-        public string SendQueriesTo
-        {
-            get;
-            set;
-        }
+        //public string SendQueriesTo
+        //{
+        //    get;
+        //    set;
+        //}
         public string PreperationNotes
         {
             get;
@@ -195,16 +195,16 @@ namespace FrontlineEBillingAssistant.Core.Models
             get;
             set;
         }
-        public int LineItemStatus
+        public string LineItemStatus
         {
             get;
             set;
         }
-        public bool SaveStatus
-        {
-            get;
-            set;
-        }
+        //public bool SaveStatus
+        //{
+        //    get;
+        //    set;
+        //}
         public string RowStatus
         {
             get;
@@ -215,7 +215,7 @@ namespace FrontlineEBillingAssistant.Core.Models
             get;
             set;
         }
-        public int DiscountCreditCategory
+        public int? DiscountCreditCategory
         {
             get;
             set;
@@ -230,11 +230,11 @@ namespace FrontlineEBillingAssistant.Core.Models
             get;
             set;
         }
-        public int? OrgLineNumber
-        {
-            get;
-            set;
-        }
+        //public int? OrgLineNumber
+        //{
+        //    get;
+        //    set;
+        //}
         public string LineItemType
         {
             get;

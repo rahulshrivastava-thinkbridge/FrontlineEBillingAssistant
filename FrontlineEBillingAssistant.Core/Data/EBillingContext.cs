@@ -255,6 +255,7 @@ namespace FrontlineEBillingAssistant.Core.Data
         public virtual DbSet<ZcmorrisduffyTokiomarine> ZcmorrisduffyTokiomarines { get; set; }
         public virtual DbSet<InvoiceListingGridModel> InvoiceListingGrid { get; set; }
         public virtual DbSet<InvoiceLineItemsListingGridModel> InvoiceLineItemsListingGrid { get; set; }
+        public virtual DbSet<InvoiceReviewToolVM> InvoiceDetails { get; set; }
 
         #endregion
 
@@ -10464,6 +10465,8 @@ namespace FrontlineEBillingAssistant.Core.Data
             modelBuilder.Entity<InvoiceListingGridModel>().HasNoKey();
 
             modelBuilder.Entity<InvoiceLineItemsListingGridModel>().HasNoKey();
+
+            modelBuilder.Entity<InvoiceReviewToolVM>().HasNoKey();
 
             OnModelCreatingPartial(modelBuilder);
         }

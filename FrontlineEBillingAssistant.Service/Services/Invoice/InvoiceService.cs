@@ -31,5 +31,17 @@ namespace FrontlineEBillingAssistant.Service.Services.Invoice
                 throw;
             }
         }
+
+        public async Task<IEnumerable<Core.Models.InvoiceReviewToolVM>> GetInvoiceDetailsById(int Id)
+        {
+            try
+            {
+                return await _invoiceRepo.GetInvoiceDetailsById(Id);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

@@ -10,9 +10,10 @@ namespace FrontlineEBillingAssistant.Service.Services.Invoice
         private readonly IInvoiceLineItemRepository _invoiceLineItemRepo;
         private readonly IInvoiceLineItemGridRepository _invoiceLineItemGridRepository;
 
-        public InvoiceLineItemService(IInvoiceLineItemRepository invoiceLineItemRepo)
+        public InvoiceLineItemService(IInvoiceLineItemRepository invoiceLineItemRepo, IInvoiceLineItemGridRepository invoiceLineItemGridRepository)
         {
             _invoiceLineItemRepo = invoiceLineItemRepo;
+            _invoiceLineItemGridRepository = invoiceLineItemGridRepository;
         }
 
         public async Task<IEnumerable<Core.Models.InvoiceLineItem>> GetAllInvoiceLineItemsById(int Id)

@@ -17,5 +17,10 @@ namespace FrontlineEBillingAssistant.Repository.Repository
         {
             return await _ebillingContext.Invoices.Take(1000).ToListAsync();
         }
+
+        public async Task<IEnumerable<InvoiceReviewToolVM>> GetInvoiceDetailsById(int Id)
+        {
+            return await _ebillingContext.InvoiceDetails.FromSqlRaw<InvoiceReviewToolVM>("GetInvoiceDetailsById {0}", Id).ToListAsync();
+        }
     }
 }

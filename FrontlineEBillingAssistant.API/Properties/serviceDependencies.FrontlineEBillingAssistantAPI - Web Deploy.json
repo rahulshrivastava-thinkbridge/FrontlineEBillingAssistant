@@ -1,13 +1,10 @@
 {
   "dependencies": {
-    "apis1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/ebillingassistantapi/apis/frontlineebillingassistant",
-      "type": "apis.azure"
-    },
     "mssql1": {
-      "type": "mssql.onprem",
-      "connectionId": "ConnectionStrings:EBillingDB",
-      "secretStore": "AzureAppSettings"
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/fms21eda08/databases/live_invoiceprep",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:EBillingDB"
     }
   }
 }
