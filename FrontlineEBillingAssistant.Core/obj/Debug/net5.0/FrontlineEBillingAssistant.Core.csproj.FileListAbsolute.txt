@@ -12,3 +12,4 @@ E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug
 E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\ref\FrontlineEBillingAssistant.Core.dll
 E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.pdb
 E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.genruntimeconfig.cache
+E:\Projects\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.csproj.AssemblyReference.cache
