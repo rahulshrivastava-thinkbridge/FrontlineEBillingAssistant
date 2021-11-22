@@ -27,28 +27,27 @@ namespace FrontlineEBillingAssistant.Repository.Repository
             }
         }
 
-        public async Task<int> UpdateInvoiceLineItems(InvoiceLineItemsListingGridModel model)
+        public int UpdateInvoiceLineItems(InvoiceLineItemsListingGridModel model)
         {
             int rowsAffected = 0;
 
-            //string sql = "EXEC SalesLT.Product_UpdateListPrice @ProductID, @ListPrice";
+            string sql = "EXEC [dbo].[UpdateInvoiceLineItems] @ProductID, @ListPrice";
 
-            //List<SqlParameter> param = new List<SqlParameter>
-            //{ 
-            //    // Create parameters    
-            //    new SqlParameter { ParameterName = "@ProductID", Value = 706 },
-            //    new SqlParameter { ParameterName = "@ListPrice", Value = 1500 }
-            //};
+            List<SqlParameter> param = new List<SqlParameter>
+            { 
+                // Create parameters    
+                new SqlParameter { ParameterName = "@ProductID", Value = 706 },
+                new SqlParameter { ParameterName = "@ListPrice", Value = 1500 }
+            };
 
-            //try
-            //{
-            //    await _ebillingContext.Database.ExecuteSqlRaw(sql, param.ToArray());
-            //    rowsAffected = 1;
-            //}
-            //catch(Exception ex)
-            //{
-            //    rowsAffected = 0;
-            //}
+            try
+            {
+                rowsAffected = _ebillingContext.Database.ExecuteSqlRaw(sql, param.ToArray());
+            }
+            catch (Exception ex)
+            {
+                rowsAffected = 0;
+            }
 
             return rowsAffected;
         }

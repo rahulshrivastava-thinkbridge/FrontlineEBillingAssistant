@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\FrontlineEBillingAssistant.Authentication.csproj": {}
+    "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\FrontlineEBillingAssistant.Authentication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\FrontlineEBillingAssistant.Authentication.csproj": {
+    "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\FrontlineEBillingAssistant.Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\FrontlineEBillingAssistant.Authentication.csproj",
+        "projectUniqueName": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\FrontlineEBillingAssistant.Authentication.csproj",
         "projectName": "FrontlineEBillingAssistant.Authentication",
-        "projectPath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\FrontlineEBillingAssistant.Authentication.csproj",
+        "projectPath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\FrontlineEBillingAssistant.Authentication.csproj",
         "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\obj\\",
+        "outputPath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rahul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj": {
-                "projectPath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj"
+              "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj": {
+                "projectPath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj": {
+    "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj",
+        "projectUniqueName": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj",
         "projectName": "FrontlineEBillingAssistant.Core",
-        "projectPath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj",
+        "projectPath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj",
         "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\obj\\",
+        "outputPath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rahul\\AppData\\Roaming\\NuGet\\NuGet.Config",

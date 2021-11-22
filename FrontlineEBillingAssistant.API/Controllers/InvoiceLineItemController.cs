@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Cors;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Authorization;
+using FrontlineEBillingAssistant.Core.Models;
 
 namespace FrontlineEBillingAssistant.API.Controllers
 {
@@ -69,6 +70,25 @@ namespace FrontlineEBillingAssistant.API.Controllers
             );
 
             return json;
+        }
+
+        [EnableCors("CORSPolicy")]
+        [HttpPost("update")]
+        public string UpdateInvoiceLineItems([FromBody] InvoiceLineItemsListingGridModel model)
+        {
+            string retVal = string.Empty;
+            var result = _invoiceLineItemService.UpdateInvoiceLineItems(model);
+
+            if (Convert.ToInt32(result) == 0)
+            {
+                retVal = "Fail";
+            }
+            else if (Convert.ToInt32(result) >= 1)
+            {
+                retVal = "Success";
+            }
+
+            return retVal;
         }
     }
 }
