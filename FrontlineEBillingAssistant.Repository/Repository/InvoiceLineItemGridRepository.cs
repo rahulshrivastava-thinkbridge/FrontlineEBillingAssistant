@@ -5,6 +5,7 @@ using FrontlineEBillingAssistant.Repository.Repository.Base;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -24,6 +25,32 @@ namespace FrontlineEBillingAssistant.Repository.Repository
             {
                 return new List<InvoiceLineItemsListingGridModel>();
             }
+        }
+
+        public async Task<int> UpdateInvoiceLineItems(InvoiceLineItemsListingGridModel model)
+        {
+            int rowsAffected = 0;
+
+            //string sql = "EXEC SalesLT.Product_UpdateListPrice @ProductID, @ListPrice";
+
+            //List<SqlParameter> param = new List<SqlParameter>
+            //{ 
+            //    // Create parameters    
+            //    new SqlParameter { ParameterName = "@ProductID", Value = 706 },
+            //    new SqlParameter { ParameterName = "@ListPrice", Value = 1500 }
+            //};
+
+            //try
+            //{
+            //    await _ebillingContext.Database.ExecuteSqlRaw(sql, param.ToArray());
+            //    rowsAffected = 1;
+            //}
+            //catch(Exception ex)
+            //{
+            //    rowsAffected = 0;
+            //}
+
+            return rowsAffected;
         }
     }
 }
