@@ -32,7 +32,7 @@ namespace FrontlineEBillingAssistant.Service.Services.Invoice
             return await _invoiceLineItemGridRepository.GetInvoiceLineItemsListing(Id);
         }
 
-        public int UpdateInvoiceLineItems(InvoiceLineItemsListingGridModel model)
+        public int UpdateInvoiceLineItems(IEnumerable<InvoiceLineItemsListingGridModel> model)
         {
             return _invoiceLineItemGridRepository.UpdateInvoiceLineItems(model);
         }

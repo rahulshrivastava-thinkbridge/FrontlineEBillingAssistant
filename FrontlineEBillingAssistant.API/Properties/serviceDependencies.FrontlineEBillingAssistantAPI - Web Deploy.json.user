@@ -1,8 +1,12 @@
 {
   "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2021-11-23T10:02:00.2958426Z"
+    },
     "mssql1": {
       "restored": true,
-      "restoreTime": "2021-10-27T15:00:05.1553133Z"
+      "restoreTime": "2021-11-23T10:02:43.3099543Z"
     }
   },
   "parameters": {
@@ -15,6 +19,16 @@
       "Name": "mssql1.resourceGroupName",
       "Type": "resourceGroup",
       "Value": "FrontLine-DataAnalysis"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "FrontLine-DataAnalysis"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "1c154f21-b020-41be-9afb-22364fde45a0"
     }
   }
 }

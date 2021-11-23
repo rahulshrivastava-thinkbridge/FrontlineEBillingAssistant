@@ -9,6 +9,6 @@ namespace FrontlineEBillingAssistant.Service.Interface.Invoice
         Task<IEnumerable<InvoiceLineItem>> GetAllInvoiceLineItemsById(int Id);
         Task<IEnumerable<InvoiceLineItem>> GetAllInvoiceLineItems();
         Task<IEnumerable<InvoiceLineItemsListingGridModel>> GetInvoiceLineItemsById(int Id);
-        int UpdateInvoiceLineItems(InvoiceLineItemsListingGridModel model);
+        int UpdateInvoiceLineItems(IEnumerable<InvoiceLineItemsListingGridModel> model);
     }
 }

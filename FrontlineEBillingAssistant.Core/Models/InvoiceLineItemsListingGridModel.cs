@@ -240,5 +240,11 @@ namespace FrontlineEBillingAssistant.Core.Models
             get;
             set;
         }
+
+        public string MLPreparationNotes
+        {
+            get;
+            set;
+        }
     }
 }

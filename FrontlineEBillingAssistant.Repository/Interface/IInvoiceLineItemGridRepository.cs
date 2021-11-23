@@ -8,6 +8,6 @@ namespace FrontlineEBillingAssistant.Repository.Interface
     public interface IInvoiceLineItemGridRepository : IRepository<InvoiceLineItemsListingGridModel>
     {
         public Task<IEnumerable<InvoiceLineItemsListingGridModel>> GetInvoiceLineItemsListing(int Id);
-        public int UpdateInvoiceLineItems(InvoiceLineItemsListingGridModel model);
+        public int UpdateInvoiceLineItems(IEnumerable<InvoiceLineItemsListingGridModel> model);
     }
 }

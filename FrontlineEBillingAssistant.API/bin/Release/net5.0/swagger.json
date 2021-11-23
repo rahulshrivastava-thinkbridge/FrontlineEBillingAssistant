@@ -1,0 +1,387 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "FrontlineEBillingAssistant.API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/LoginRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/invoice/GetAllInvoices": {
+      "get": {
+        "tags": [
+          "Invoice"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/invoice/details": {
+      "get": {
+        "tags": [
+          "Invoice"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Id",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/invoice/listing": {
+      "get": {
+        "tags": [
+          "Invoice"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/invoice/listing/filtered": {
+      "post": {
+        "tags": [
+          "Invoice"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/InvoiceListingFilterRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/invoice/listing/paged": {
+      "post": {
+        "tags": [
+          "Invoice"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/InvoiceListingPagedRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/invoicelineitems/GetAllInvoiceLineItems": {
+      "get": {
+        "tags": [
+          "InvoiceLineItem"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/invoicelineitems/listing": {
+      "get": {
+        "tags": [
+          "InvoiceLineItem"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Id",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/invoicelineitems/update": {
+      "post": {
+        "tags": [
+          "InvoiceLineItem"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/InvoiceLineItemsListingGridModel"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "InvoiceLineItemsListingGridModel": {
+      "type": "object",
+      "properties": {
+        "lineItemId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "date": {
+          "type": "string"
+        },
+        "task": {
+          "type": "string"
+        },
+        "activity": {
+          "type": "string"
+        },
+        "timekeeper": {
+          "type": "string"
+        },
+        "timekeeper_Id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "timekeeperInitial": {
+          "type": "string"
+        },
+        "tkLevel": {
+          "type": "string"
+        },
+        "rule": {
+          "type": "string"
+        },
+        "ruleCategory": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "units": {
+          "format": "double",
+          "type": "number"
+        },
+        "rate": {
+          "type": "string"
+        },
+        "discounts": {
+          "type": "string"
+        },
+        "total": {
+          "type": "string"
+        },
+        "originalDiff": {
+          "format": "double",
+          "type": "number"
+        },
+        "invoiceMatter_Id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "invoice_Id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "matter_Id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "hasCommunication": {
+          "type": "boolean"
+        },
+        "hasNewCommunication": {
+          "type": "boolean"
+        },
+        "hasCommunicationDisplay": {
+          "type": "string"
+        },
+        "comments": {
+          "type": "string"
+        },
+        "preperationNotes": {
+          "type": "string"
+        },
+        "unitsOld": {
+          "format": "double",
+          "type": "number"
+        },
+        "rateOld": {
+          "type": "string"
+        },
+        "discountOld": {
+          "type": "string"
+        },
+        "activityOld": {
+          "type": "string"
+        },
+        "taskOld": {
+          "type": "string"
+        },
+        "timekeeperInitialOld": {
+          "type": "string"
+        },
+        "totalOld": {
+          "type": "string"
+        },
+        "descriptionOld": {
+          "type": "string"
+        },
+        "dateOld": {
+          "type": "string"
+        },
+        "isModified": {
+          "type": "boolean"
+        },
+        "lineItemStatus": {
+          "type": "string"
+        },
+        "rowStatus": {
+          "type": "string"
+        },
+        "chargeType": {
+          "type": "string"
+        },
+        "discountCreditCategory": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "agreedRate": {
+          "type": "string"
+        },
+        "billType": {
+          "type": "string"
+        },
+        "lineItemType": {
+          "type": "string"
+        },
+        "mlPreparationNotes": {
+          "type": "string"
+        }
+      }
+    },
+    "InvoiceListingFilterRequest": {
+      "type": "object",
+      "properties": {
+        "filterType": {
+          "type": "string"
+        },
+        "filterValue": {
+          "type": "string"
+        }
+      }
+    },
+    "InvoiceListingPagedRequest": {
+      "type": "object",
+      "properties": {
+        "pageIndex": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "startRecord": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "endRecord": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "filterText": {
+          "type": "string"
+        }
+      }
+    },
+    "LoginRequest": {
+      "type": "object",
+      "properties": {
+        "userName": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

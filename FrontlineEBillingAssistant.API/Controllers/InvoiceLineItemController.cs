@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Cors;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Authorization;
 using FrontlineEBillingAssistant.Core.Models;
+using System.Collections.Generic;
 
 namespace FrontlineEBillingAssistant.API.Controllers
 {
@@ -74,7 +75,7 @@ namespace FrontlineEBillingAssistant.API.Controllers
 
         [EnableCors("CORSPolicy")]
         [HttpPost("update")]
-        public string UpdateInvoiceLineItems([FromBody] InvoiceLineItemsListingGridModel model)
+        public string UpdateInvoiceLineItems([FromBody] IEnumerable<InvoiceLineItemsListingGridModel> model)
         {
             string retVal = string.Empty;
             var result = _invoiceLineItemService.UpdateInvoiceLineItems(model);
