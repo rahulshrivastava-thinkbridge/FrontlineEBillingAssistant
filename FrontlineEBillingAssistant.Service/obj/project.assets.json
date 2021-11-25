@@ -7765,11 +7765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Service\\FrontlineEBillingAssistant.Service.csproj",
+      "projectUniqueName": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Service\\FrontlineEBillingAssistant.Service.csproj",
       "projectName": "FrontlineEBillingAssistant.Service",
-      "projectPath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Service\\FrontlineEBillingAssistant.Service.csproj",
+      "projectPath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Service\\FrontlineEBillingAssistant.Service.csproj",
       "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Service\\obj\\",
+      "outputPath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rahul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7786,11 +7786,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj": {
-              "projectPath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj"
+            "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj": {
+              "projectPath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj"
             },
-            "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Repository\\FrontlineEBillingAssistant.Repository.csproj": {
-              "projectPath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Repository\\FrontlineEBillingAssistant.Repository.csproj"
+            "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Repository\\FrontlineEBillingAssistant.Repository.csproj": {
+              "projectPath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Repository\\FrontlineEBillingAssistant.Repository.csproj"
             }
           }
         }
