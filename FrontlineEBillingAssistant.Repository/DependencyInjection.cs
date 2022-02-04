@@ -15,6 +15,7 @@ namespace FrontlineEBillingAssistant.Repository
             service.AddScoped<IInvoiceLineItemRepository, InvoiceLineItemRepository>();
             service.AddScoped<IInvoiceListingGridRepository, InvoiceListingGridRepository>();
             service.AddScoped<IInvoiceLineItemGridRepository, InvoiceLineItemGridRepository>();
+            service.AddScoped<IBillyRetrainingRepository, BillyRetrainingRepository>();
         }
     }
 }

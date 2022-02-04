@@ -28,6 +28,5 @@ namespace FrontlineEBillingAssistant.Core.Models
         public decimal AgreedRate { get; set; }
         public bool IsModified { get; set; }
         public bool IsRetrained { get; set; }
-        public string ModifiedDateTimeStamp { get; set; }
     }
 }

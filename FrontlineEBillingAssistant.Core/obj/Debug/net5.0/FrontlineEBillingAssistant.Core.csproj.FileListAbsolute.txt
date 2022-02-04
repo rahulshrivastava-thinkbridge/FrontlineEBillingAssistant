@@ -18,7 +18,6 @@ C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBi
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\bin\Debug\net5.0\FrontlineEBillingAssistant.Core.dll
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\bin\Debug\net5.0\ref\FrontlineEBillingAssistant.Core.dll
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\bin\Debug\net5.0\FrontlineEBillingAssistant.Core.pdb
-C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.csproj.AssemblyReference.cache
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.AssemblyInfoInputs.cache
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.AssemblyInfo.cs

@@ -12,6 +12,7 @@ namespace FrontlineEBillingAssistant.Service
             service.AddTransient<IInvoiceService, InvoiceService>();
             service.AddTransient<IInvoiceLineItemService, InvoiceLineItemService>();
             service.AddTransient<IInvoiceListingGridService, InvoiceListingGridService>();
+            service.AddTransient<IBillyRetrainingService, BillyRetrainingService>();
         }
     }
 }
