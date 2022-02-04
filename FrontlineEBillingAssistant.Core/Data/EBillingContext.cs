@@ -256,6 +256,7 @@ namespace FrontlineEBillingAssistant.Core.Data
         public virtual DbSet<InvoiceListingGridModel> InvoiceListingGrid { get; set; }
         public virtual DbSet<InvoiceLineItemsListingGridModel> InvoiceLineItemsListingGrid { get; set; }
         public virtual DbSet<InvoiceReviewToolVM> InvoiceDetails { get; set; }
+        public virtual DbSet<BillyFeedbackRetrainingTable> BillyFeedbackRetrainingTable { get; set; }
 
         #endregion
 
@@ -10467,6 +10468,8 @@ namespace FrontlineEBillingAssistant.Core.Data
             modelBuilder.Entity<InvoiceLineItemsListingGridModel>().HasNoKey();
 
             modelBuilder.Entity<InvoiceReviewToolVM>().HasNoKey();
+
+            modelBuilder.Entity<BillyFeedbackRetrainingTable>().HasNoKey();
 
             OnModelCreatingPartial(modelBuilder);
         }
