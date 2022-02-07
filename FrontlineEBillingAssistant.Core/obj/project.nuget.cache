@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4k6SAFJ8p9zJzsZ3cQw+vTk+o6Ngum/L5B+NmRypuFPx6DDXWMX7QAJDXShx7hxounYTYXiSSxGYJcH5ydpYew==",
+  "dgSpecHash": "qaiWVDErl4TnvhlYG/4HhvAQpMq5dzwRYLw0q1hkcDyS2AQZA9uSssifNGWFzbmKA9YF1H0b4RFyEkd2RudPBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj",
+  "projectFilePath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Core\\FrontlineEBillingAssistant.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahul\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\rahul\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

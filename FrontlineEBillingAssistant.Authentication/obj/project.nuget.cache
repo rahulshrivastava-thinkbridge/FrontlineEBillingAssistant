@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kZ+efqylNihhb/q2PqR09VeVCCM9I4DOpFD5ZuPSRHFi3vI3NVbo8YxmEKf3rcqMzk8he7nrw/pqzCwTUhMX+Q==",
+  "dgSpecHash": "gvbU6/8ZO/XXo/RCHOEbMhJTEoty0mGG47icEdxLc+f+Mc7f60IxULwHgYHk+teeHoSa5woBEnasI0KO58gk7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\FrontlineEBillingAssistant.Authentication.csproj",
+  "projectFilePath": "E:\\Projects\\FrontlineEBillingAssistant\\FrontlineEBillingAssistant.Authentication\\FrontlineEBillingAssistant.Authentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahul\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\rahul\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.10\\microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",
