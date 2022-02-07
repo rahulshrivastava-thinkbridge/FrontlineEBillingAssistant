@@ -11,7 +11,6 @@ using System.Collections.Generic;
 
 namespace FrontlineEBillingAssistant.API.Controllers
 {
-    [Authorize]
     [Route("api/retraining")]
     [ApiController]
     public class RetrainingController : ControllerBase
