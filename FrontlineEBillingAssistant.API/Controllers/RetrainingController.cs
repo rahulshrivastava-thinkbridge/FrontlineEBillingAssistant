@@ -27,8 +27,8 @@ namespace FrontlineEBillingAssistant.API.Controllers
         /// Method Name     : InsertRetrainingData
         /// Developer       : Rahul Shrivastava
         /// Created Date    : 04-02-2022
-        /// API Url : /api/Retraining/insert
-        /// Description : Returns a json object of InvoiceLineItems based on Invoice Client ID
+        /// API Url : /api/retraining/insert
+        /// Description : Inserts the retraining data into respective table
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
@@ -47,6 +47,26 @@ namespace FrontlineEBillingAssistant.API.Controllers
             {
                 retVal = "Success";
             }
+
+            return retVal;
+        }
+
+        /// <summary>
+        /// Method Name     : GetRetrainingResponse
+        /// Developer       : Rahul Shrivastava
+        /// Created Date    : 07-02-2022
+        /// API Url : /api/retraining/status
+        /// Description : Returns the retraining response
+        /// </summary>
+        /// <param name="strStatus"></param>
+        /// <returns></returns>
+        [EnableCors("CORSPolicy")]
+        [HttpPost("status")]
+        public string GetRetrainingResponse(string strStatus)
+        {
+            string retVal = string.Empty;
+
+            retVal = _billyRetrainingService.GetRetrainingResponse(strStatus);
 
             return retVal;
         }

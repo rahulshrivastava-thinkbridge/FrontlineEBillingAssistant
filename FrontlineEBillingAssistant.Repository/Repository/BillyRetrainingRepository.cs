@@ -60,5 +60,50 @@ namespace FrontlineEBillingAssistant.Repository.Repository
 
             return rowsAffected;
         }
+
+        public string GetRetrainingResponse(string strResponseMessage)
+        {
+            int rowsAffected = 0;
+            string retVal = string.Empty;
+            string sql = "EXEC [dbo].[UpdateRetrainingTable] @Status";
+            List<SqlParameter> param = null;
+
+            if (!string.IsNullOrEmpty(strResponseMessage))
+            {
+                if (strResponseMessage == "Success")
+                {
+                    param = new List<SqlParameter>
+                    {
+                        new SqlParameter { ParameterName = "@Status", Value = "S", Direction = System.Data.ParameterDirection.Input }
+                    };
+
+                    retVal = "Success";
+                }
+                else
+                {
+                    param = new List<SqlParameter>
+                    {
+                        new SqlParameter { ParameterName = "@Status", Value = "F", Direction = System.Data.ParameterDirection.Input }
+                    };
+
+                    retVal = "Error";
+                }
+
+                try
+                {
+                    rowsAffected += _ebillingContext.Database.ExecuteSqlRaw(sql, param);
+                }
+                catch (Exception)
+                {
+                    rowsAffected = 0;
+                }
+            }
+            else
+            {
+                retVal = "Error";
+            }
+
+            return retVal;
+        }
     }
 }

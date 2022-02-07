@@ -19,5 +19,10 @@ namespace FrontlineEBillingAssistant.Service.Services.Invoice
         {
             return _billyRetrainingRepository.InsertRetrainingData(model);
         }
+
+        public string GetRetrainingResponse(string strResponseMessage)
+        {
+            return _billyRetrainingRepository.GetRetrainingResponse(strResponseMessage);
+        }
     }
 }

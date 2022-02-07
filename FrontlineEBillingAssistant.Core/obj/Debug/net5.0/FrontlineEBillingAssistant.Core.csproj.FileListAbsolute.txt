@@ -26,3 +26,4 @@ C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBi
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\ref\FrontlineEBillingAssistant.Core.dll
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.pdb
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.genruntimeconfig.cache
+C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.Core\obj\Debug\net5.0\FrontlineEBillingAssistant.Core.csproj.AssemblyReference.cache

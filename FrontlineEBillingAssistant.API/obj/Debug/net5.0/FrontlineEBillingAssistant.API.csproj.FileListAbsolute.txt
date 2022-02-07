@@ -157,3 +157,4 @@ C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBi
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.API\obj\Debug\net5.0\ref\FrontlineEBillingAssistant.API.dll
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.API\obj\Debug\net5.0\FrontlineEBillingAssistant.API.pdb
 C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.API\obj\Debug\net5.0\FrontlineEBillingAssistant.API.genruntimeconfig.cache
+C:\Users\rahul\OneDrive\Documents\GitHub\FrontlineEBillingAssistant\FrontlineEBillingAssistant.API\obj\Debug\net5.0\FrontlineEBillingAssistant.API.MvcApplicationPartsAssemblyInfo.cs

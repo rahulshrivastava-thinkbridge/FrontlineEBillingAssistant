@@ -10,6 +10,6 @@ namespace FrontlineEBillingAssistant.Repository.Interface
         //public Task<IEnumerable<BillyFeedbackRetrainingTable>> GetAllRetrainingData();
         //public Task<IEnumerable<BillyFeedbackRetrainingTable>> GetRetrainingDataByLawFirmId(string lawFirmId);
         public int InsertRetrainingData(IEnumerable<BillyFeedbackRetrainingTable> model);
-        //public Task<string> GetRetrainingResponse(string strResponseMessage);
+        public string GetRetrainingResponse(string strResponseMessage);
     }
 }
